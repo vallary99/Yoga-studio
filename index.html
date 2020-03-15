@@ -84,7 +84,7 @@
                     </div>
                 </div>
         </div>    
-        
+
         <div class="portfolio">
             <div class="row">
                 <div class="col-md-3">
@@ -115,11 +115,14 @@
                 </div>
             </div>
         </div>
-            
+        <br><br>    
         <div class="schedule">
             <div id="schedule">SCHEDULE</div>    
                 <div class="row">
                     <div class="col-md-6">
+                        <h3>OPEN HOURS</h3>
+                            6am - 7pm<br><br><br>
+
                         <h3>WEEKDAYS</h3>
                             6am, 8am, 10am, 5pm, 7pm<br><br><br>
                         
@@ -127,30 +130,33 @@
                             8am, 10am, 12noon, 4pm<br><br><br>
 
                         <h3>Public Holidays</h3>
-                            8am, 10am, 12noon, 4pm
-                    </div>
+                            8am, 10am, 12noon, 4pm<br><br><br>
 
+                        <h3>NOTE<h3>
+                        Private sessions with trainers are to be booked outside the scheduled time above within the specified open hours.
+                    </div>
+                    <br><br>
                     <div class="col-md-6">
                         <div class="form">
-                            <h5>BOOK APPOINTMENT</h5>
+                            <h3>BOOK NOW</h3>
                                 <form name="cForm" onsubmit="validation()" method="POST">
                                         
                                     NAME <input id="name" type="text" name="fname" required><br><br>
 
-                                    E-MAIL<input id="mail" type="text" name="fmail" required><br><br>
+                                    E-MAIL <input id="mail" type="text" name="fmail" required><br><br>
 
-                                    CLASS<input id="class" type="text" name="fmail" placeholder="Beginner" required><br><br>
+                                    CLASS <input id="class" type="text" name="fmail" placeholder="Beginner" required><br><br>
                                         
                                     DATE <input id="date" type="date" name="fdate" required><br><br>
                                         
                                     TIME <input id="time" type="time" name="ftime" required><br><br>
                                     
                                     <label for="ftext"></label>
-                                    <textarea id="ftext" rows="10"  cols="30" placeholder="Leave your messege here..."></textarea>
+                                    <textarea id="ftext" rows="10"  cols="50" placeholder="Leave your messege here..."></textarea>
                                     <br><br>
 
-                                    <input type="submit" value="SUBMIT">
-                                    <input type="reset" value="RESET">
+                                    <input type="submit" value="SUBMIT" class="bg-success">
+                                    <input type="reset" value="RESET" class="bg-danger">
                                 </form>
                         </div>
                     </div>

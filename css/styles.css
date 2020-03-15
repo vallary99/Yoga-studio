@@ -10,13 +10,15 @@
 }
 
 #home{
-    color: rgb(143, 94, 5);
-    font-size: 140px;
+    color: rgb(243, 159, 3);
+    font-size: 130px;
+    text-align: center;
 }
 
 .navbar{
     background-color:rgb(32, 30, 30);
     position: fixed;
+    motion: unset;
 }
 
 .navbar a {
@@ -24,9 +26,10 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 16px;
+    padding: 3px;
+    padding-left: 30px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .navbar a:hover {
@@ -130,7 +133,6 @@ iframe{
 }
 
 .schedule{
-    font-family: Inknut Antiqua;
     text-align: center;
     /* margin-top: 30px; */
     /* background-image: url("../images/image8.jpg"); */
@@ -139,17 +141,6 @@ iframe{
     background-size: cover;
     background-image: linear-gradient(orange,white);
 }
-
-/* .schedule .border input{
-    background-color: none;
-    display: inline-table;
-    width: 150px;
-} */
-
-textarea{
-    background-color: none;
-    opacity: 1;
-} 
 
 .portfolio{
     margin-top: 50px;
@@ -176,8 +167,8 @@ textarea{
 
 #three{
     margin-left: -40px;
-    margin-top: -50px;
-    height: 450px;
+    margin-top: -30px;
+    height: 430px;
     width: 400px;
 }
 
@@ -208,6 +199,33 @@ textarea{
     margin-left: -100px;
     height: 350px;
     width: 400px;
+}
+
+form input{
+    background: none;
+    width: 200px;
+
+}
+
+textarea{
+    background: none;
+}
+
+@media screen and (max-width:960px){
+    .container-fluid{
+        width: 100%;
+    }
+
+    #home{
+        font-size: 50px;
+    }
+
+}
+
+@media screen and (max-width:640px){
+    .container-fluid{
+        width: 100px;
+    }
 }
 
 
