@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua|Sen&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOGA</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="navbar">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT US</a>
+            <a href="#types">CLASSES</a>
+            <a href="#schedule">SCHEDULE</a>
+            <a href="#schedule">BOOK SESSIONS</a>
+        </div>
+
+        <div class="home">
+            <div id="home">
+                KENT<br>YOGA STUDIO
+            </div>
+        </div>
+    
+        <div class="yoga-types">
+            <div id="types">YOGA TYPES</div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div id="karma">
+                            <h3>KARMA YOGA</h3>
+                                <img src="images/karma.png">
+                        </div>
+
+                        <div id="karma-content">
+                            <p>
+                                Commonly preferred by those with an active nature, Karma Yoga is the path of skillful action, where one acts selflessly without expectation or desire of fruits or rewards.
+                                Through the teachings of this Yoga, a person can learn the art of detachment, dedicating and devoting his actions to the Divine, and therefore eliminating the accumulation of karma.
+                                Karma, according to yogic lore, is what ultimately keeps us from uniting with the Divine.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div id="jnana">
+                            <h3>JNANA YOGA</h3>
+                                <img src="images/jnana.png">
+                        </div>
+
+                        <div id="jnana-content">
+                            <p>
+                                This is perhaps the most difficult path for a modern aspirant as it requires a high degree of intellectual interest and mental power. This path encourages the practitioner to use his own mind to discover the true nature of his mind. It can dissolve the veil of ignorance through knowledge itself, primarily knowledge of the Self.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div id="bhakti">
+                            <h3>BHAKTI YOGA</h3>
+                                <img src="images/bhakti.png">
+                        </div>
+
+                        <div id="bhakti-content">
+                            <p>
+                                Motivated by the power of devotional love, Bhakti Yoga brings one into a state of trance through prayer, kirtan, bhajans, worship, and ritual. It teaches a person to transform her emotions into pure unconditional love for the Divine and how to reach God through the heart.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div id="raja">
+                            <h3>RAJA YOGA</h3>
+                                <img src="images/raja.png">
+                        </div>
+
+                        <div id="raja-content">
+                            <p>
+                                This path is a more technical branch of Yoga, considered the Yoga of concentration and meditation, or the Yoga of the third eye. Various tools and techniques are used to train and tame the mind. It is considered the “royal road” among the four paths and can lead a devotee to samadhi, or enlightenment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </div>    
+        
+        <div class="portfolio">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="images/image1.jpg" id="one">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/image5.jpg" id="two">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/image2.jpg" id="three">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/image6.jpg" id="four">
+                </div>
+            </div>  
+            <div class="row">   
+                <div class="col-md-3">
+                    <img src="images/image3.jpg" id="five">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/image7.jpg" id="six">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/image4.jpg" id="seven">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/image8.jpg" id="eight">
+                </div>
+            </div>
+        </div>
+            
+        <div class="schedule">
+            <div id="schedule">SCHEDULE</div>    
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>WEEKDAYS</h3>
+                            6am, 8am, 10am, 5pm, 7pm<br><br><br>
+                        
+                        <h3>WEEKENDS</h3>
+                            8am, 10am, 12noon, 4pm<br><br><br>
+
+                        <h3>Public Holidays</h3>
+                            8am, 10am, 12noon, 4pm
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form">
+                            <h5>BOOK APPOINTMENT</h5>
+                                <form name="cForm" onsubmit="validation()" method="POST">
+                                        
+                                    NAME <input id="name" type="text" name="fname" required><br><br>
+
+                                    E-MAIL<input id="mail" type="text" name="fmail" required><br><br>
+
+                                    CLASS<input id="class" type="text" name="fmail" placeholder="Beginner" required><br><br>
+                                        
+                                    DATE <input id="date" type="date" name="fdate" required><br><br>
+                                        
+                                    TIME <input id="time" type="time" name="ftime" required><br><br>
+                                    
+                                    <label for="ftext"></label>
+                                    <textarea id="ftext" rows="10"  cols="30" placeholder="Leave your messege here..."></textarea>
+                                    <br><br>
+
+                                    <input type="submit" value="SUBMIT">
+                                    <input type="reset" value="RESET">
+                                </form>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="about"> 
+            <div id="about">ABOUT US</div><br><br>    
+                <p>
+                    We provide you with a safe space to challenge and push yourself to achieve overall wellbeing and a deeper connection to self.
+                    The entire Kent Yoga team is here to support, guide and encourage you on your personal fitness and wellness journey. 
+                </p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 my-3 align-self-center">
+                    <h2>LOCATION</h2>
+                        <div class="embed-responsive embed-responsive-21by9 height-60">
+                            <iframe id="image"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d510564.6498664422!2d36.56720029142611!3d-1.3031933719272915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi!5e0!3m2!1sen!2ske!4v1583270469772!5m2!1sen!2ske"
+                                    width="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="contact">
+                        <div id="contact"><h2>CONTACTS US</h2></div>
+                            PHONE  46585749950<br><br>
+                            <img src="images/gmail.png">   <a href="https://mail.google.com/mail/u/0/#inbox">kentstudios@gmail.com</a><br><br>
+                            <img src="images/yahoo.jpeg">  <a href="https://login.yahoo.com/">kentstudios@yahoo.com</a><br><br><br>
+                        </div>
+                        
+                        <div class="icons">
+                            <img src="images/twitter.png">
+                            <img src="images/instagram.png">
+                            <img src="images/telegram.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
+</body>
+</html>

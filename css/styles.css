@@ -1,30 +1,43 @@
-#home{
+.home{
     font-family: Inknut Antiqua;
     text-align: center;
-    font-size: 150px; 
     background-image: url(../images/home.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed;
     height: 600px;
-    color: darkgray;
-    margin-top: 30px;
+    margin-top: 20px;
+}
+
+#home{
+    color: rgb(143, 94, 5);
+    font-size: 140px;
 }
 
 .navbar{
-    margin-top: 20px;
-    color: darkgrey;
-    background-color:black;
-    font-size: 20px;
-    color: dackgrey;
-    width: 60%;
-    margin-left: 400px;
-    text-decoration: grey;
+    background-color:rgb(32, 30, 30);
+    position: fixed;
 }
 
-/* .yoga-types{
-    background-image: repeating-linear-gradient(blue,white);
-} */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: orange;
+    color: black;
+}
+  
+.navbar a:active {
+    background-color: orange;
+    color: white;
+}
 
 #types{
     font-family: Inknut Antiqua;
@@ -176,7 +189,7 @@ textarea{
 
 #five{
     width: 500px;
-    height: 350px;
+    height: 300px;
     margin-top: -70px;
 }
 
