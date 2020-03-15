@@ -1,0 +1,200 @@
+#home{
+    font-family: Inknut Antiqua;
+    text-align: center;
+    font-size: 150px; 
+    background-image: url(../images/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    height: 600px;
+    color: darkgray;
+    margin-top: 30px;
+}
+
+.navbar{
+    margin-top: 20px;
+    color: darkgrey;
+    background-color:black;
+    font-size: 20px;
+    color: dackgrey;
+    width: 60%;
+    margin-left: 400px;
+    text-decoration: grey;
+}
+
+/* .yoga-types{
+    background-image: repeating-linear-gradient(blue,white);
+} */
+
+#types{
+    font-family: Inknut Antiqua;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    background-image: repeating-linear-gradient(orange,white);
+}
+
+#karma{
+    font-family: Inknut Antiqua;
+    text-align: center;
+}
+
+#karma-content{
+    text-align: center;
+}
+
+#jnana{
+    font-family: Inknut Antiqua;
+    text-align: center;
+}
+
+#jnana-content{
+    text-align: center;
+}
+
+#bhakti{
+    font-family: Inknut Antiqua;
+    text-align: center;
+}
+
+#bhakti-content{
+    text-align: center;
+}
+
+#raja{
+    font-family: Inknut Antiqua;
+    text-align: center;
+}
+
+#raja-content{
+    text-align: center;
+}
+
+#about{
+    font-size: 50px;
+    text-align: center;
+    font-family: Inknut Antiqua;
+    margin-top: 50px;
+}
+
+.about{
+    text-align: center;
+    font-family: none;
+    font-size: 20px;
+    background-image: linear-gradient(orange,white);
+}
+
+iframe{
+    margin-left: 20px;
+}
+
+.contact{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact img{
+    height: 50px;
+    width: 80px;
+}
+
+.icon{
+    /* margin-top: 80px; */
+    text-align: center;
+}
+
+.icons img{
+    padding: 10px;
+    width: 80px;
+    height: 50px;
+}
+
+#schedule{
+    font-family: Inknut Antiqua;
+    text-align: center;
+    font-size: 50px;
+    /* background-image: linear-gradient(blue,white); */
+}
+
+.schedule{
+    font-family: Inknut Antiqua;
+    text-align: center;
+    /* margin-top: 30px; */
+    /* background-image: url("../images/image8.jpg"); */
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(orange,white);
+}
+
+/* .schedule .border input{
+    background-color: none;
+    display: inline-table;
+    width: 150px;
+} */
+
+textarea{
+    background-color: none;
+    opacity: 1;
+} 
+
+.portfolio{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.portfolio img{
+    height: 300px;
+    width: 350px;
+    padding: 30px;
+}
+
+#one{
+    height: 400px;
+    width: 400px;
+}
+
+#two{
+    margin-left: -50px;
+    margin-top: 200px;
+    border-color: 1pt solid black;
+    width: 400px;
+}
+
+#three{
+    margin-left: -40px;
+    margin-top: -50px;
+    height: 450px;
+    width: 400px;
+}
+
+#four{
+    margin-left: -80px;
+    margin-top: 220px;
+    width: 400px;
+}
+
+#five{
+    width: 500px;
+    height: 350px;
+    margin-top: -70px;
+}
+
+#six{
+    margin-top: 110px;
+    height: 350px;
+}
+
+#seven{
+    margin-top: -30px;
+    margin-left: -50px;
+}
+
+#eight{
+    margin-top: 110px;
+    margin-left: -100px;
+    height: 350px;
+    width: 400px;
+}
+
+
