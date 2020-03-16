@@ -6,4 +6,3 @@ function validation(){
 
     confirm(name+" "+"your session has been scheduled for"+" "+date+" "+"at"+" "+time+".Thank you for reaching out to us");  
 }
-

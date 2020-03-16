@@ -10,35 +10,35 @@
 }
 
 #home{
-    color: rgb(243, 159, 3);
+    color: white;
     font-size: 130px;
     text-align: center;
 }
 
-.navbar{
-    background-color:rgb(32, 30, 30);
+#navbar{
+    background-color: black;
     position: fixed;
-    motion: unset;
+    z-index: 1;
 }
 
-.navbar a {
+#navbar a {
     float: left;
     display: block;
     color: white;
     text-align: center;
-    padding: 3px;
+    padding: 5px;
     padding-left: 30px;
     text-decoration: none;
     font-size: 15px;
 }
 
-.navbar a:hover {
-    background-color: orange;
+#navbar a:hover {
+    background-color: white;
     color: black;
 }
   
-.navbar a:active {
-    background-color: orange;
+#navbar a:active {
+    background-color: slategrey;
     color: white;
 }
 
@@ -47,15 +47,11 @@
     font-size: 50px;
     text-align: center;
     margin-top: 50px;
-    background-image: repeating-linear-gradient(orange,white);
+    background-image: repeating-linear-gradient(teal,white);
 }
 
 #karma{
     font-family: Inknut Antiqua;
-    text-align: center;
-}
-
-#karma-content{
     text-align: center;
 }
 
@@ -64,25 +60,13 @@
     text-align: center;
 }
 
-#jnana-content{
-    text-align: center;
-}
-
 #bhakti{
     font-family: Inknut Antiqua;
     text-align: center;
 }
 
-#bhakti-content{
-    text-align: center;
-}
-
 #raja{
     font-family: Inknut Antiqua;
-    text-align: center;
-}
-
-#raja-content{
     text-align: center;
 }
 
@@ -97,7 +81,7 @@
     text-align: center;
     font-family: none;
     font-size: 20px;
-    background-image: linear-gradient(orange,white);
+    background-image: linear-gradient(teal,white);
 }
 
 iframe{
@@ -115,7 +99,6 @@ iframe{
 }
 
 .icon{
-    /* margin-top: 80px; */
     text-align: center;
 }
 
@@ -129,17 +112,14 @@ iframe{
     font-family: Inknut Antiqua;
     text-align: center;
     font-size: 50px;
-    /* background-image: linear-gradient(blue,white); */
 }
 
 .schedule{
     text-align: center;
-    /* margin-top: 30px; */
-    /* background-image: url("../images/image8.jpg"); */
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(orange,white);
+    background-image: linear-gradient(teal,white);
 }
 
 .portfolio{
@@ -204,7 +184,16 @@ iframe{
 form input{
     background: none;
     width: 200px;
+}
 
+#submit{
+    color: white;
+    background-color: black;
+}
+
+#reset{
+    color: black;
+    background-color: white;
 }
 
 textarea{
@@ -222,10 +211,93 @@ textarea{
 
 }
 
-@media screen and (max-width:640px){
-    .container-fluid{
-        width: 100px;
-    }
-}
+* {
+    box-sizing: border-box;
+  }
 
+@media only screen and (max-width: 991px){
+    #types{
+        background-image: repeating-linear-gradient(orange,white);
+    }
+
+    .schedule{
+        background-image: repeating-linear-gradient(orange,white);
+    }
+
+    .about{
+        background-image: repeating-linear-gradient(orange,white);
+    }
+
+    .portfolio img{
+        display: auto;
+        padding: 10px;
+    }
+
+    #one{
+        height: 300px;
+        width: 400px;
+        margin-left: -15px;
+        border: 1pt solid black;
+    }
+
+    #two{
+        height: 300px;
+        width: 400px;
+        margin-top: 20px;
+        margin-left: 10px;
+        border: 1pt solid black;
+    }
+
+    #three{
+        height: 300px;
+        width: 400px;
+        margin-top: 20px;
+        border: 1pt solid black;
+    }
+
+    #four{
+        height: 300px;
+        width: 400px;
+        margin-top: 20px;
+        margin-left: 10px;
+        border: 1pt solid black;
+    }
+
+    #five{
+        height: 300px;
+        width: 400px;
+        margin-top: 20px;
+        margin-left: -25px;
+        border: 1pt solid black;
+    }
+
+    #six{
+        height: 300px;
+        width: 400px;
+        margin-top: 20px;
+        border: 1pt solid black;
+    }
+
+    #seven{
+        height: 300px;
+        width: 400px;
+        margin-top: 20px;
+        border: 1pt solid black;
+    }
+
+    #eight{
+        height: 300px;
+        width: 400px;
+        margin-top: 20px;
+        margin-left: 5px;
+        border: 1pt solid black;
+    }
+
+    .body{
+        width: 100%;
+    }
+
+    #navbar a{
+        padding-left: 10px;
+    }
 
