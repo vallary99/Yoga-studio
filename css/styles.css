@@ -293,11 +293,25 @@ textarea{
         border: 1pt solid black;
     }
 
-    .body{
+    .container-fluid{
         width: 100%;
     }
 
-    #navbar a{
-        padding-left: 10px;
+    #navbar{
+        width: 70%
     }
+
+    #navbar a{
+        padding-left: 5px;
+    }
+
+    #submit{
+        width: 80px;
+    }
+
+    #reset{
+        width: 80px;
+    }
+
+}
 
