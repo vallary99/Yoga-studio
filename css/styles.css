@@ -70,6 +70,11 @@
     text-align: center;
 }
 
+.yoga-types img{
+    height: 180px;
+    width: 200px;
+}
+
 #about{
     font-size: 50px;
     text-align: center;
@@ -236,7 +241,7 @@ textarea{
     #one{
         height: 300px;
         width: 400px;
-        margin-left: -15px;
+        margin-left: -25px;
         border: 1pt solid black;
     }
 
@@ -244,7 +249,7 @@ textarea{
         height: 300px;
         width: 400px;
         margin-top: 20px;
-        margin-left: 10px;
+        margin-left: 6px;
         border: 1pt solid black;
     }
 
@@ -259,7 +264,7 @@ textarea{
         height: 300px;
         width: 400px;
         margin-top: 20px;
-        margin-left: 10px;
+        margin-left: 6px;
         border: 1pt solid black;
     }
 
